@@ -29,7 +29,7 @@ def getweather():
         elif response.status_code == 404:
             print(f"There is nowhere named {getinput} ")
         else:
-            print("Something went wrong")1
+            print("Something went wrong")
 
 if __name__ == "__main__":
     while True:
