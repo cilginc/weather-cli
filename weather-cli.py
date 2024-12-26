@@ -26,11 +26,10 @@ def getweather():
            print(f"Region: {nearest_area.get('region')[0].get('value')}")
            print(f"Country: {nearest_area.get('country')[0].get('value')}")
            print("-----------------------------")
-           return ""
         elif response.status_code == 404:
-            return f"There is nowhere named {getinput} "
+            print(f"There is nowhere named {getinput} ")
         else:
-            return "Something went wrong"
+            print("Something went wrong")1
 
 if __name__ == "__main__":
     while True:
