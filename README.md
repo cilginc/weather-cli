@@ -1,2 +1,2 @@
 # weather-cli
-A python weather app for cli
+This project uses https://github.com/chubin/wttr.in api for weather.
